@@ -1,0 +1,46 @@
+.app {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.element {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: rgba(123,123,34,0.8);
+    border: 5px solid rgba(123,123,34,1);
+    border-radius: 10px;
+}
+
+.element_top{
+    width: 25%;
+    height: 30px;
+    border-bottom: 5px solid rgba(123,123,34,1);
+}
+
+.element_right{
+    width: 25%;
+    height: 30px;
+    border-bottom: 5px solid rgba(123,123,34,1);
+}
+
+.element_left{
+    width: 25%;
+    height: 30px;
+    border-bottom: 5px solid rgba(123,123,34,1);
+}
+
+.element_bottom{
+    width: 25%;
+    height: 30px;
+    border-bottom: 5px solid rgba(123,123,34,1);
+}
