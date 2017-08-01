@@ -1,3 +1,5 @@
+// Manage CSS Grid by jQuery
+
 $(function () {
 
     $(".columns").on('change', function() {
